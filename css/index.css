@@ -1,20 +1,30 @@
-body{
-  background: grey;#1c2c39;
+.index ul li,.portfolio ul li{
+  display: inline;
 }
+.grid_12{
+  width: 960px !important;
+  margin: 0px;
+  overflow: hidden;
+}
+body{
+  background: grey;
+}
+
+/* header starts here */
 header{
   background-color: #608428;
+}
+header h1,.container h3,.footer h2{
+  color: #e8e8e8 !important;
+  text-shadow: 1px 2px 5px black;
 }
 header h1{
   font-size: 50px;
   height: 50px;
-  float: right;
-  background: none;
-  color: #e8e8e8;
   margin: 0px;
-  text-shadow: 1px 2px 5px black;
 }
+/* Menu bar starts here */
 .nav-bar{
-  background: none;
   padding-top: 10px;
   margin: 30px 0px 0px;
   text-align: right;
@@ -32,64 +42,64 @@ header h1{
 .nav-bar a:hover{
     color: white;
 }
+/* Menu bar starts here */
+/* header ends here */
+
+/* Hero element starts here */
 .container{
   background-image: url(../img/food.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 500px;
-  margin-bottom: 0px;
 }
-.container h3{
-  color: #ccc;
-  text-shadow: 1px 1px 5px black;
+.container h1,.container h3{
   text-align: center;
-  font-size: 30px;
+  letter-spacing: 1px;
 }
 .container h1{
   color: white;
   font-size: 40px;
-  letter-spacing: 1px;
-  text-align: center;
   margin: 300px 0px 0px 0px;
 }
+.container h3{
+  font-size: 30px;
+}
+/* Hero element ends here */
+
+/* Services starts here */
+.index hr{
+  margin: 0px !important;
+}
 .services{
-  height: 200px;
-  margin: 0px;
   background: white;
+  height: 210px;
 }
 .services ul li {
   margin: 20px 10px;
   color: #222;
   text-align: center;
 }
+.services_step_1,.services_step_2,.services_step_3,.services_step_4{
+  height: 83px;
+  background-repeat: no-repeat;
+  padding-left: 0px;
+}
 .services_step_1{
   background-image: url(../img/steps_sprite.png);
-  background-position: 80 -134px;
-  height: 72px;
-  width: 0px;
-  background-repeat: no-repeat;
+  background-position: 0 -134px;
 }
 .services_step_2{
   background-image: url(../img/steps_sprite.png);
-  background-position: 80 -267px;
-  height: 83px;
-  width: 0px;
-  background-repeat: no-repeat;
+  background-position: 0 -267px;
 }
 .services_step_3{
   background-image: url(../img/steps_sprite.png);
-  background-position: 80 -400px;
-  height: 83px;
-  width: 0px;
-  background-repeat: no-repeat;
+  background-position: 0 -400px;
 }
 .services_step_4{
   background-image: url(../img/steps_sprite.png);
-  background-position: 80 -533px;
-  height: 83px;
-  width: 0px;
-  background-repeat: no-repeat;
+  background-position: 0 -533px;
 }
 .title{
   font-size: 18px;
@@ -100,6 +110,9 @@ header h1{
   font-size: 15px;
   color: #222;
 }
+/* Services ends here */
+
+/* Application Download links start here */
 .download{
   color: #444;
   background: #f7f7f7;
@@ -109,8 +122,7 @@ header h1{
 }
 .download_link{
   text-align: center;
-  margin: 0px 0px;
-  margin-top: 20px;
+  margin: 20px 0px 0px;
 }
 .download_link p{
   font-size: 15px;
@@ -120,12 +132,15 @@ header h1{
   float: right;
   margin-right: 90px;
 }
+/* Application Download links end here */
+
+/* Careers and Newsletter starts here */
 .join_us p{
   font-size: 15px;
   color: #444;
 }
 .join_us{
-  overflow: hidden;
+  margin: 0px;
 }
 .join_us{
   background: white;
@@ -134,9 +149,6 @@ header h1{
   margin-top: 10px;
   color: #f75d34;
 }
-hr{
-  margin: 0px;
-}
 .download img{
   padding-left: 20px;
 }
@@ -144,17 +156,16 @@ date{
   color: #444;
   font-size: 10px;
 }
+/* Careers and Newsletter ends here */
+
+/* Footer starts here */
 .footer{
   padding-top: 20px;
   background: #232222;
 }
 .footer h2 {
-    color: #868788;
     font-size: 25px;
     text-align: center;
-}
-.footer ul{
-  list-style: none;
 }
 .countries{
   width: 27px;
@@ -163,11 +174,14 @@ date{
   color: white;
 }
 .countries_list ul li{
-  display: inline;
   margin: 0px;
 }
 .follow{
   float: right;
+}
+.follow a{
+  float: left;
+  margin: 0px;
 }
 .follow h4{
   font-size: 14px;
@@ -179,3 +193,89 @@ date{
   color: #888;
   text-align: center;
 }
+/* Footer ends here */
+/* index page ends here */
+
+/*Portfolio css starts*/
+.portfolio h1,portfolio h2,portfolio h3,portfolio h4,portfolio h5{
+  color:#222222;
+  font-family: sans-serif;
+}
+
+/* Employee section starts here */
+.employee{
+  background: #f7f7f7;
+  height: 230px;
+}
+.pic img{
+  border-radius: 200px;
+  width: 150px;
+}
+.pic1{
+  margin-left: 5px;
+}
+.pic2{
+  margin-left: 25px;
+}
+.employee h3{
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  margin: 20px;
+}
+.pic p{
+  padding: 10px 5px 10px 5px;
+  font-size: 14x;
+}
+.pic_data{
+  background-color: white;
+  border-radius: 10px;
+  color: #444;
+  margin: 0px;
+  box-shadow: 2px 1px 1px grey;
+}
+.portfolio hr{
+  margin-bottom: 0px;
+}
+/* Employee section ends here */
+
+/* Events section starts here */
+.events{
+  background: white;
+}
+.events img{
+  overflow: hidden;
+  width: 220px;
+  height: 225px;
+  margin: 0px;
+  padding-left: 40px
+}
+.events h3{
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  margin: 20px;
+}
+.events p{
+  padding: 10px 5px 10px 5px;
+  font-size: 14px;
+  color: #444;
+  text-align: center;
+}
+/* Events section ends here */
+
+/* careers section starts here */
+.we{
+  background: white;
+}
+.we img{
+  margin-right: 30px;
+  width: 10px;
+  border-radius: 5px;
+  margin: 0px;
+}
+.we p{
+  font-size: 14px;
+  color: #444;
+}
+/* careers section ends here */
