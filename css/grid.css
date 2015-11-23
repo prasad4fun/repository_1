@@ -1,0 +1,12 @@
+.wrap{
+  background-color: red;
+}
+nav li{
+  display: inline;
+}
+aside{
+  background: green;
+}
+.primary{
+  background: yellow;
+}

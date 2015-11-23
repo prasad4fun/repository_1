@@ -1,0 +1,19 @@
+body{
+  width: 600px;
+  margin: auto;
+}
+article{
+  background: #666;
+}
+img{
+  float: left;
+  margin-right: 20px;
+}
+.preveiw{
+  float: left;
+  background: red;
+  width: 450px;
+}
+#clear{
+  clear: both;
+}

@@ -1,0 +1,51 @@
+body{
+     margin-left:auto;
+     margin-right:auto;
+     width:1000px;
+  background: white;
+}
+header{
+  width: 100%;
+  background: #1c2c39;
+  min-width: 80%;
+}
+header img{
+  float: left;
+}
+header h1{
+  float: left;
+  margin-left: 10px;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  color: white;
+  width: 250px;
+  text-shadow: 3px 4px red;
+}
+header a{
+    text-decoration: none;
+    color: green;
+}
+header li a:hover{
+  font-size: 22px;
+  color: #276056;
+}
+header ul{
+float: right;
+list-style: none;
+padding: 20px 30px 20px 0px;
+letter-spacing: 2px;
+font-size: 20px;
+
+}
+header ul li{
+  display: inline;
+  padding-right: 10px;
+}
+#Nav-bar{
+  width:550px;
+  float:right;
+}
+#clear{
+  clear: both;
+}

@@ -1,0 +1,10 @@
+h1{
+  background: url(../img/netplus.jpg) no-repeat;
+  width:271px;
+  height:59px;
+  text-indent: -2000px;
+  display: inline-block;
+}
+body{
+  background: grey;
+}
